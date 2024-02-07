@@ -1,0 +1,136 @@
+* {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1367px;
+    margin: 0 auto;
+}
+
+.header button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    height: 54px;
+    margin-right: 25px;
+    font-size: 13px;
+}
+
+.header_nav {
+    margin-right: 600px;
+}
+
+.header_list {
+    display: flex;
+}
+
+.header_list li {
+    list-style: none;
+}
+
+.header_list li a {
+    margin-left: 15px;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    height: 54px;
+    padding-top: 19px;
+    font-size: 13px;
+}
+
+.logo {
+    display: block;
+    height: 54px;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+
+.logo img {
+    display: block;
+    width: 108px;
+    height: 23px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.advertisement {
+    max-width: 1509px;
+    margin: 0 auto;
+    background: url(./src/images/Highlight-Hero-Windows11-GlobalLaunch_VP5-1920x600.jpeg) center center/cover no-repeat;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 125px 0 0 125px;
+}
+
+.advertisement .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+
+.advertisement_title {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.advertisement_descr {
+    margin-top: 15px;
+}
+
+.advertisement button {
+    width: 240px;
+    height: 40px;
+    margin-top: 15px;
+    border:none;
+    border-radius: 2px;
+    background-color: rgb(0, 103, 184);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.products {
+    padding-top: 100px;
+}
+
+.products .wrapper {
+    display: flex;
+}
+
+.products .flex-item {
+    width: 324px;
+    margin: 0 12px 0 12px;
+}
+
+.products .flex-item img {
+    width: 324px;
+    height: 182px;
+}
+.products .products_subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.products .products_descr {
+    margin-top: 12px;
+}
+
+.products .products_more {
+    margin-top: 12px;
+}
+
+.products .products_more a {
+    text-decoration: none;
+}

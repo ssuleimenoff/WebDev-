@@ -1,0 +1,138 @@
+@import "./fonts.css";
+* {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.login__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.login {
+    background-color: rgb(240, 242, 245);
+    padding-bottom: 112px;
+    padding-top: 90px;
+    height: 720px;
+}
+
+.login__logo {
+    display: block;
+    height: 106px;
+    max-width: 500px;
+    margin: -28px;
+}
+
+.login__left {
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: start;
+}
+
+.login__left h2 {
+    margin-top: 21px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.login__right {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 40px 0 0;
+    padding: 10px 0 28px;
+    width: 396px;
+    height: 348px;
+}
+
+.login-form input {
+    padding: 14px 16px;
+    color: rgba(29,33,41, 0.6);
+    font-size: 17px;
+    width: 364px;
+    height: 52px;
+    margin: 6px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login__descr {
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.button-submit {
+    margin-top: 6px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+}
+
+.button-reg {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+
+.login-form a {
+    margin-top: 16px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login-form hr {
+    width: 364px;
+    border: 1px solid rgba(218,221,225);
+    margin: 20px 16px;
+}
+
+footer {
+    height: 175px;
+    padding: 20px 0;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    color: rgba(29,33,41, 0.6);
+}
+
+footer hr {
+    margin-top: 15px;
+}
+
+footer .more {
+    margin-top: 15px;
+}

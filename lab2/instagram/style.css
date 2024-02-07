@@ -1,0 +1,176 @@
+* {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.loginPage {
+    padding: 32px 0 32px 0;
+}
+
+.flexWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loginPageLog {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+}
+
+.loginPageLog .signIn {
+    height: 390px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #CED0D4;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 40px 0;
+}
+.loginPageLog .signUp {
+    border: 1px solid #CED0D4;
+    border-radius: 1px;
+    height: 62px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.loginPageLog .signUp a {
+    color: #0095F6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.loginPageForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.loginPageForm input {
+    margin-top: 5px;
+    width: 259px;
+    height: 36px;
+    border: 1px solid #CED0D4;
+    border-radius: 4px;
+    padding: 9px 0 7px 8px;
+}
+
+.loginPageForm input:first-child {
+    margin-top: 25px;;
+}
+
+.button {
+    margin: 15px 0;
+    width: 259px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0,149,246,0.6);
+    color: #fff
+}
+
+.loginPage .logo {
+    height: 50px;
+    width: 175px;
+}
+
+.loginPage .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.loginPage .or {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loginPage .or::before {
+   content: "";
+   display: block;
+   width: 102px;
+   border-top: 1px solid #CED0D4;
+   margin-top: 0px;
+   margin-right: 15px;
+}
+
+.loginPage .or::after {
+    content: "";
+    display: block;
+    width: 102px;
+    border-top: 1px solid #CED0D4;
+    margin-top: 6px;
+    margin-left: 15px;
+ }
+
+ .loginPage .facebook {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 259px;
+    color:darkblue
+ }
+ .loginPage .facebook img {
+    margin-right: 10px;
+ }
+
+ .loginPage .forgot {
+    text-decoration: none;
+    margin-top: 20px;
+    color: darkblue;
+    font-size: 12px;
+ }
+
+ .download {
+    margin-top: 10px;
+ }
+ .downloadApps {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+ .downloadApps .googlePlay {
+    height: 40px;
+    width: 110px;
+    margin-left: 15px;
+ }
+
+ .downloadApps .microsoft {
+    height: 40px;
+    width: 135px;
+ }
+ 
+ .downloadApps img {
+    height: 100%;
+    width: 100%;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: center;
+ }
+ .footer div {
+    width: 850px;
+    text-align: center;
+ }
+ .footer div a{
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+ }

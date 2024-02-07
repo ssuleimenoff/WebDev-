@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "sf";
+    font-display: swap;
+    src: local("helveticaneue-bold"),
+      url("../fonts/helveticaneue-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "sf";
+    font-display: swap;
+    src: local("helveticaneue-light"),
+      url("../fonts/helveticaneue-light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "sf";
+    font-display: swap;
+    src: local("helveticaneue-medium"),
+      url("../fonts/helveticaneue-medium.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
