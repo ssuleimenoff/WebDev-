@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    /*border: 2px solid rgb(100,100,100);*/
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border property */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 250px;
+}
+
+li input[type="check"] {
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 5px;
+    background-color: rgb(0,100,255);
+    color: white;
+    border-radius: 2px;
+    border: 2px solid rgb(0,100,255);
+    align-self: center;
+}
+#item{
+    width: 500px;
+}
+.adding{
+    height : 20px;
+    margin-left: 370px;
+}
+
+li button img {
+    width: 20px;
+    height: 20px;
+}
+li button{
+    background-color: white;
+    border: 2px solid rgb(255,255,255);
+}
+li.done {
+    text-decoration: line-through;
+}
