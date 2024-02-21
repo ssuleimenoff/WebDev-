@@ -1,0 +1,20 @@
+<h2>Products</h2>
+
+<div class = "product-catalog">
+    <div *ngFor="let product of products" class="product-card" >
+        <img [src]="product.image" alt="Product Image" class="product-image">
+        <h3 class="product-title"><a [routerLink]="['/products', product.id]">{{product.name}}</a></h3>
+        <p class="product-description">{{product.description}}</p>
+        <div class="product-info">
+            <span class="product-rating">Rating: {{ getStars(product.rating) }}</span>
+            <span class="product-price">₸{{product.price}}</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn share-btn" (click)="share(product.sourceLink)">Share</button>
+            <app-product-alerts
+          [product]="product" 
+          (notify)="onNotify()">
+            </app-product-alerts>
+          </div>
+      </div>
+</div>
