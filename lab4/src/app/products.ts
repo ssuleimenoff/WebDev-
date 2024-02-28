@@ -5,7 +5,8 @@ export interface Product {
   description: string;
   image: string,
   rating: number,
-  sourceLink: string
+  sourceLink: string,
+  indexOfImage: number;
 }
 
 export const products = [
@@ -20,7 +21,8 @@ export const products = [
     объем видеопамяти: 8.0 Гб\n
     тип видеопамяти: GDDR5\n
     рекомендуемая мощность блока питания: 450.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/sinotex-ninja-radeon-rx-580-ahrx58085f-8-gb-108345023/"
+    sourceLink: "https://kaspi.kz/shop/p/sinotex-ninja-radeon-rx-580-ahrx58085f-8-gb-108345023/",
+    indexOfImage: 0,
   },
   {
     id: 2,
@@ -34,7 +36,8 @@ export const products = [
     тип видеопамяти: GDDR6\n
     длина видеокарты: 282.0 мм\n
     рекомендуемая мощность блока питания: 550.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/gigabyte-geforce-rtx-3060-gaming-oc-12g-rev-2-0-12-gb-101717712/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/gigabyte-geforce-rtx-3060-gaming-oc-12g-rev-2-0-12-gb-101717712/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 3,
@@ -48,7 +51,8 @@ export const products = [
     тип видеопамяти: GDDR6\n
     длина видеокарты: 224.0 мм\n
     рекомендуемая мощность блока питания: 600.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/zotac-geforce-rtx-3060-twin-edge-12-gb-102105290/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/zotac-geforce-rtx-3060-twin-edge-12-gb-102105290/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 4,
@@ -61,7 +65,8 @@ export const products = [
     тип видеопамяти: GDDR6\n
     длина видеокарты: 222.0 мм\n
     рекомендуемая мощность блока питания: 450.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/colorful-gtx-1660-super-nb-6g-v-6gb-102081433/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/colorful-gtx-1660-super-nb-6g-v-6gb-102081433/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 5,
@@ -75,7 +80,8 @@ export const products = [
     тип видеопамяти: GDDR6X\n
     длина видеокарты: 261.0 мм\n
     рекомендуемая мощность блока питания: 650.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/gigabyte-geforce-rtx-4070-windforce-oc-gv-n4070wf3oc-12gd-12-gb-109975420/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/gigabyte-geforce-rtx-4070-windforce-oc-gv-n4070wf3oc-12gd-12-gb-109975420/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 6,
@@ -88,7 +94,8 @@ export const products = [
     объем видеопамяти: 6.0 Гб\n
     тип видеопамяти: GDDR6\n
     рекомендуемая мощность блока питания: 450.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/palit-geforce-gtx-1660-super-gp-6-gb-100017856/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/palit-geforce-gtx-1660-super-gp-6-gb-100017856/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 7,
@@ -101,7 +108,8 @@ export const products = [
     тип видеопамяти: GDDR6\n
     длина видеокарты: 253.0 мм\n
     рекомендуемая мощность блока питания: 600.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/colorful-igame-geforce-rtx-3050-ultra-w-duo-oc-8g-v-8-gb-108702412/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/colorful-igame-geforce-rtx-3050-ultra-w-duo-oc-8g-v-8-gb-108702412/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 8,
@@ -113,7 +121,8 @@ export const products = [
     объем видеопамяти: 16.0 Гб\n
     тип видеопамяти: GDDR6\n
     рекомендуемая мощность блока питания: 700.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/gigabyte-radeon-rx-7800-xt-gaming-oc-gv-r78xtgaming-oc-16gd-16-gb-114832777/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/gigabyte-radeon-rx-7800-xt-gaming-oc-gv-r78xtgaming-oc-16gd-16-gb-114832777/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 9,
@@ -126,7 +135,8 @@ export const products = [
     объем видеопамяти: 4.0 Гб\n
     тип видеопамяти: GDDR5\n
     рекомендуемая мощность блока питания: 300.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/palit-geforce-gtx-1050-ti-stormx-4-gb-6700826/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/palit-geforce-gtx-1050-ti-stormx-4-gb-6700826/?c=750000000",
+    indexOfImage: 0,
   },
   {
     id: 10,
@@ -140,7 +150,8 @@ export const products = [
     тип видеопамяти: GDDR6X\n
     длина видеокарты: 340.0 мм\n
     рекомендуемая мощность блока питания: 1000.0 Вт\n`,
-    sourceLink: "https://kaspi.kz/shop/p/gigabyte-geforce-rtx-4090-gaming-oc-gv-n4090gaming-oc-24gd-24-gb-106852889/?c=750000000"
+    sourceLink: "https://kaspi.kz/shop/p/gigabyte-geforce-rtx-4090-gaming-oc-gv-n4090gaming-oc-24gd-24-gb-106852889/?c=750000000",
+    indexOfImage: 0,
   },
 ];
 
