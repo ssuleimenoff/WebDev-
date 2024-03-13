@@ -1,0 +1,16 @@
+<div class = "navbar">
+  <button (click) = "back()">Back</button>
+</div>
+@if(album){
+<div class="card">
+  <p>title: <input [(ngModel)] = "album.title"/></p>
+  <p>id: {{album.id}}</p>
+  <p>userId: {{album.userId}}</p>
+  <a [routerLink]="['/albums', album.id, 'photos']">Photos</a>
+</div>
+<button class = "save-btn" (click) = "save()">
+  Save
+</button>
+}@else{
+<p>Not found, sorry :(</p>
+}

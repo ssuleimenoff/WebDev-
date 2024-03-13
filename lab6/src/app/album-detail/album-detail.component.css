@@ -1,0 +1,29 @@
+.card {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FAFAFA;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+.save-btn {
+  background-color: #4ACF50;
+  color: white;
+  padding: 10px 24px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}

@@ -1,0 +1,9 @@
+<div class = "navbar">
+  <button (click) = "back()">Back</button>
+</div>
+<div class = "row">
+  <div *ngFor="let photo of photos" class="col">
+    <img src="{{photo.url}}" alt="{{photo.title}}">
+    <span>{{photo.title}}</span>
+  </div>
+</div>

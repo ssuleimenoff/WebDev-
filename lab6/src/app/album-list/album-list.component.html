@@ -1,0 +1,15 @@
+<!-- @for(album of albums; track album.id){
+    {{album.title}}
+} -->
+
+
+<ul class="container">
+  <button class="create-btn" (click) = "create()">Create</button>
+  <li *ngFor = "let album of albums "class="item">
+      <a [routerLink]="['/albums', album.id]">
+      <span class="item-text">{{album.title}}</span>
+  </a>
+      <span class="delete-icon" (click)="delete(album.id)">&#10005;</span>
+  
+  </li>
+</ul>
