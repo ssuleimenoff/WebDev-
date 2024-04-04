@@ -1,3 +1,4 @@
+import { Product } from './../products';
 import { Component } from '@angular/core';
 
 import { products } from '../products';
@@ -21,6 +22,12 @@ export class ProductListComponent {
 
   getStars(rating: number): string {
     return '★'.repeat(Math.floor(rating)) + '☆'.repeat(5 - Math.floor(rating));
+  }
+
+  nextImage(product: Product){
+    if(product.indexOfImage < product.image.length - 1){
+      product.indexOfImage
+    }
   }
 }
 

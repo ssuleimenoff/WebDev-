@@ -12,9 +12,9 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Видеокарта Sinotex NINJA RADEON RX 580 AHRX58085F 8 ГБ',
-    price: 69990,
-    image: "https://resources.cdn-kaspi.kz/img/m/p/h5f/h61/67650520645662.jpg?format=gallery-medium",
+    name: 'Apple MacBook Air 13 MGN93 серебристый',
+    price: 414722,
+    image: 'https://resources.cdn-kaspi.kz/img/m/p/h9a/h35/64082972704798.jpg?format=gallery-medium',
     rating: 5,
     description: `серия: Radeon RX 500 series\n
     частота графического процессора: 1168 МГц\n
